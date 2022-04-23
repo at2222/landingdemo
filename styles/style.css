@@ -11,7 +11,7 @@ body {
     font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    color: #b5b5b5;
+    
 }
 
 .container {
@@ -481,7 +481,84 @@ left: 45.7%;
     padding: 22px;
 }
 
+.get-in-touch {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 35px;
+    text-align: center;   
+}
+
+.get-in-touch .container {
+    position: relative;
+}
+
+.get-in-touch h2{
+    margin: 35px;
+}
+
+.email {
+    width: 67%;
+    background-color: #515151;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px auto;
+}
+
+
+/* .bordered::before {
+    content: '';
+    height: 50px;
+    width: 50px !important;
+    border: 2px solid #515151;
+    border-radius: 4px;
+    padding: 15px;
+    margin-right: 20px;
+} */
+
+ .bordered {
+    height: 50px;
+    width: 50px !important;
+    border: 2px solid #515151;
+    border-radius: 4px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.bordered:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+
+/* .fa-facebook-f .fa-twitter .fa-google-plus-g .fa-linkedin-in {
+    width: 74px;
+} */
+
+
+
+.subscribe-button {
+    width: 155px;
+    height: 55px;
+    background-color: #2a2a2a;
+    border: 3px solid #484848;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: auto;
+        
+}
+
+.container p {
+    margin: 35px;
+}
+
 footer {
-    height: 300px;
-    background-color: blue;
+    height: 70px;
+    background-color: #515151;
+    text-align: center;
+    color: #cecece;
+    padding: 30px;
 }
